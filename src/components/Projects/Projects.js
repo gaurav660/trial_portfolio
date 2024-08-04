@@ -70,7 +70,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            // <ProjectCard
+            <ProjectCard
             //   imgPath={suicide}
             //   isBlog={false}
             //   title="Ai For Social Good"
