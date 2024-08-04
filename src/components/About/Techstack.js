@@ -11,9 +11,6 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  // SiRedis,
-  // SiFirebase,
-  // SiNextdotjs,
   SiAmazonaws,
   SiPostgresql,
 } from "react-icons/si";
