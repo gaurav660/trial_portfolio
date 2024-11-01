@@ -40,7 +40,7 @@ function Projects() {
               imgPath={server}
               isBlog={false}
               title="efficient Server"
-              description="Developed an AWS server with elastic scalability using Terraform and Git, optimizing performance under variable traffic loads through ELB (Elastic Load Balancer) and ASG (Auto Scaling Group) with real-time monitoring through CloudWatch and notifications via SNS."
+              description="Developed an AWS server with elastic scalability using Terraform and Git, optimizing performance under variable traffic loads through ELB and ASG with real-time monitoring through CloudWatch and notifications via SNS."
               ghLink="https://github.com/gaurav660/elastic-and-scalable-server-on-AWS"
               demoLink=""
             />
