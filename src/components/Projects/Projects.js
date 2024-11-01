@@ -21,7 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
@@ -29,6 +29,17 @@ function Projects() {
               description="Designed and developed a website using React.js and hosted on vercel.com. It’s a multi-page website and well structured for maintainability and future updates."
               ghLink="https://github.com/gaurav660/trial_portfolio"
               demoLink="https://www.grvdev.online/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={server}
+              isBlog={false}
+              title="efficient Server"
+              description="Developed an AWS server with elastic scalability using Terraform and Git, optimizing performance under variable traffic loads through ELB (Elastic Load Balancer) and ASG (Auto Scaling Group) with real-time monitoring through CloudWatch and notifications via SNS."
+              ghLink="https://github.com/gaurav660/elastic-and-scalable-server-on-AWS"
+              demoLink=""
             />
           </Col>
             
@@ -65,18 +76,6 @@ function Projects() {
               description="Working on it."
               // ghLink="https://github.com/"
               // demoLink="https://"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-            //   imgPath={suicide}
-            //   isBlog={false}
-            //   title="Ai For Social Good"
-            //   description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-            description="Working on it."
-            //   ghLink="https://github.com/"
-            //   // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
