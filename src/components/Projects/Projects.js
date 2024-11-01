@@ -57,6 +57,17 @@ function Projects() {
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={bitsOfCode}
+              // isBlog={false}
+              // title="Bits-0f-C0de"
+              // description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Working on it."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
