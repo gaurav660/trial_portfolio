@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://grvdev.online/"
+                href="https://grvdev.in/"
                 target="_blank"
                 rel="noreferrer"
               >
